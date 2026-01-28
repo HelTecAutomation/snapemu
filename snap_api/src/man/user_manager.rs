@@ -19,7 +19,6 @@ pub struct UserResp {
 
 #[derive(Deserialize)]
 struct JsonResp {
-    code: u32,
     result: serde_json::Value,
     success: bool,
 }
